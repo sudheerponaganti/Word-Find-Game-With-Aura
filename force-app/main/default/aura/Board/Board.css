@@ -1,0 +1,21 @@
+.THIS.board {
+
+    background : #f7fafc;
+    position : relative;
+}
+
+
+.THIS .win-word{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.THIS .board-disabled{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: not-allowed;
+}
