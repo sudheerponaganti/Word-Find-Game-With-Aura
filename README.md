@@ -1,18 +1,24 @@
-# Salesforce DX Project: Next Steps
+WORD FIND GAME WITH AURE OVERVIEW
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Hi There, I developed Word find game using AURA and Apex and Data Modeling and SLDS.
 
-## How Do You Plan to Deploy Your Changes?
+here I used  below AURA Components to complete this.
+1) Block
+2) Board
+3) Board Panel
+4) Game Result
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+   
 
-## Configure Your Salesforce DX Project
+ Block Component:
+ This component is used to show the word in a block and a;lso used FitText.js library to fit the text inside the block.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Board Componnet:
 
-## Read All About It
+This is used to host the block component in Easy , Medium , Hard formatted pattern.(i.e, 3*3 , 4*4, 6*6) 
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+WORD FIND GAME DEMO
+
+https://github.com/sudheerponaganti/Word-Find-Game-With-Aura/assets/85873651/d54a1b38-92f0-4cc7-aa25-359525b5267d
+
+
